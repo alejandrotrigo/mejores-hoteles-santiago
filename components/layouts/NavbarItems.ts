@@ -22,12 +22,5 @@ export const MenuLayoutItems = [
 ];
 
 export const MainLayoutItems = [
-	{
-		href: '/services',
-		name: 'Servicios'
-	},
-	{
-		href: '/blog',
-		name: 'Blog'
-	}
+
 ]
