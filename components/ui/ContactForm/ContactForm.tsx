@@ -2,7 +2,6 @@ import React, { FC, useEffect } from 'react'
 import { ContactFormButton, ContactFormContainer, ContactFormData, ContactFormInput, ContactFormLabel, ContactFormTextArea, FormData } from './contactform.styles'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import axios from 'axios';
-import ReCAPTCHA from 'react-google-recaptcha';
 import { CaptchaModal } from '../CaptchaModal/CaptchaModal';
 
 interface Props {
@@ -18,7 +17,6 @@ interface Inputs {
 }
 
 export const ContactForm: FC<Props> = ({ service }) => {
-	const captchaRef = React.useRef<ReCAPTCHA>(null);
 	const [open, setOpen] = React.useState<boolean>(false);
 	const [isDisabled, setIsDisabled] = React.useState<boolean>(true);
 	const {

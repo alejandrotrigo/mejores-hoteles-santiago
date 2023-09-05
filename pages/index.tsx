@@ -1,13 +1,9 @@
 import type { NextPage } from "next";
 import { MainLayout } from "@/components/layouts/MainLayout";
 
-import { BgImage, MainTitle } from "@/components/ui";
+import { MainTitle } from "@/components/ui";
 
-import mobilePicture from 'public/back-mobile.webp';
-import desktopPicture from 'public/back-desktop3.webp'
 import { Where } from "@/components/ui/WhereSection/Where";
-import { DesignDev } from "@/components/ui/DesignDev/DesignDev";
-import { RiskManagement } from "@/components/ui/RiskManagement/RiskManagement";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { HotelList } from "@/components/ui/HotelList/HotelList";

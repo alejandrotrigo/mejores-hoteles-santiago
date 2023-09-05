@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://webiñas.com
+Host: https://www.mejoreshotelessantiago.es
 
 # Sitemaps
-Sitemap: https://webiñas.com/sitemap.xml
+Sitemap: https://www.mejoreshotelessantiago.es/sitemap.xml
