@@ -14,7 +14,8 @@ export const HeadingPrimary = styled('div')`
 	z-index: 1;
 
 	@media (max-width: 748px) {
-		min-height: 100vh;
+		min-height: 80vh;
+		margin: 0;
 	}
 `;
 
@@ -36,6 +37,13 @@ export const HeadingPrimaryMain = styled('h1')`
 
 	animation-name: moveInLeft;
 	animation-duration: 2s;
+
+	@media (max-width: 748px) {
+		font-size: 2.2rem;
+		font-weight: 600;
+		letter-spacing: 0.4rem;
+		width: 100%;
+	}
 `;
 
 export const HeadingPrimarySub = styled('h2')`
@@ -58,4 +66,8 @@ export const HeadingPrimarySub = styled('h2')`
 
 	animation-name: moveInBottom;
 	animation-duration: 2s;
+
+	@media (max-width: 748px) {
+		font-size: 1rem;
+	}
 `;
