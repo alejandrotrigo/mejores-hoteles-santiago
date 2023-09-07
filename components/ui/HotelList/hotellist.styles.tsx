@@ -33,6 +33,11 @@ export const HotelListItemContainer = styled('div')`
 	&:hover {
 		cursor: pointer;
 	}
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		height: 100%;
+	}
 `;
 
 export const HotelListItemImage = styled.img`

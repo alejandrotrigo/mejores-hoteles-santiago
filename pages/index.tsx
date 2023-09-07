@@ -13,7 +13,7 @@ const Home : NextPage = ( ) => {
   const service = router.query.title;
 
   return (
-   <MainLayout title={'Webiñas - webs con cariño | Diseños responsive y SEO friendly'} pageDescription={'Webs accesibles, originales y de calidad, SEO, SEM, Redes sociales, RRSS, diseños responsive, '} imageFullUrl="webinas.png">
+   <MainLayout title={'Mejores hoteles de Santiago de Compostela'} pageDescription={'Ven a conocer Santiago de Compostela de la mano de los mejores hoteles, el lujo y experiencias auténticas '} imageFullUrl="webinas.png">
       <MainTitle title="Los mejores hoteles de Santiago te esperan" subtitle="Descubre cuáles son los mejores hoteles de Santiago de Compostela para hospedarse y pasar unos días inolvidables" />
       <HotelList />
       <Where id='contact' service={service as string}/>
