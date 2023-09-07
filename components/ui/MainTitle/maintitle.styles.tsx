@@ -7,7 +7,8 @@ export const HeadingPrimary = styled('div')`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	min-height: 80vh;
+	min-height: 100%;
+	margin: 10rem 0;
 	width: 100%;
 
 	z-index: 1;
