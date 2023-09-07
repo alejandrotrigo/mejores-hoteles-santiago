@@ -51,8 +51,6 @@ export const MainLayout: React.FC<Props> = ({ title, pageDescription, imageFullU
 			{ children }
 		</main>
 
-		<WhatsAppButton />
-
 		<footer>
 			<Footer />
 		</footer>
