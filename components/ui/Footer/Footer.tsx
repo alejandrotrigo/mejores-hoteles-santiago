@@ -8,7 +8,7 @@ export const Footer = () => {
 	return (
 		<FooterContainer>
 			<FooterCopy>
-				<Typography fontFamily='DIN Condensed Bold' color='#111' fontSize='1rem' fontWeight={600}> Feito con cariño por © 2023 <NextLink href={'https://webiñas.com'} target=':blank'>Webiñas</NextLink> </Typography>
+				<Typography fontFamily='DIN Condensed Bold' color='#111' fontSize='1rem' fontWeight={600}> Feito con cariño por <NextLink href={'https://webiñas.com'} target=':blank'>Webiñas</NextLink> © 2023</Typography>
 			</FooterCopy>
 			<FooterSocial>
 				<Typography fontFamily='DIN Condensed Bold' color='#111' fontSize='1rem'> Síguenos en las redes: </Typography>
