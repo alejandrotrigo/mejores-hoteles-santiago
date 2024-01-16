@@ -1,5 +1,6 @@
 import React from 'react'
 import { HotelListContainer, HotelListItemButton, HotelListItemContainer, HotelListItemContent, HotelListItemDescription, HotelListItemImage, HotelListItemPrice, HotelListItemPriceContainer, HotelListItemTitle, HotelListWrapper } from './hotellist.styles'
+import Link from 'next/link'
 
 export const HotelList = () => {
 	return (
@@ -13,7 +14,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/casa-beatnik'>
+								<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
@@ -26,7 +29,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/nh-collection'>
+							<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
@@ -40,7 +45,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/parador-santiago'>
+								<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
@@ -53,7 +60,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/quinta-da-auga'>
+								<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
@@ -67,7 +76,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/palacio-carmen'>
+								<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
@@ -80,7 +91,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/araguaney'>
+								<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
@@ -94,7 +107,9 @@ export const HotelList = () => {
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
-							<HotelListItemButton>Reservar</HotelListItemButton>
+							<Link href='/hoteles/san-lazaro'>
+								<HotelListItemButton>Saber más</HotelListItemButton>
+							</Link>
 							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>

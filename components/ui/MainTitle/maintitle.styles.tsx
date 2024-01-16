@@ -8,7 +8,7 @@ export const HeadingPrimary = styled('div')`
 	align-items: center;
 	justify-content: center;
 	min-height: 100%;
-	margin: 10rem 0;
+	margin: 10rem 0 5rem 0;
 	width: 100%;
 
 	z-index: 1;
