@@ -98,7 +98,7 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>Eurostarts San Lázaro</HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						¿Buscas un hotel moderno, cómodo y bien comunicado en Santiago de Compostela? El hotel Eurostars San Lázaro es tu opción ideal, ya que se encuentra en una zona tranquila, junto al Palacio de Congresos y Exposiciones de Galicia, y a solo 2 km del casco histórico de la ciudad. Disfruta de sus 132 habitaciones equipadas con aire acondicionado, wifi gratis, TV, minibar y baño privado. Además, el hotel cuenta con un restaurante que ofrece un delicioso desayuno buffet y una cena a la carta, un bar cafetería, un gimnasio, un aparcamiento exterior gratuito y tres salones para eventos. El hotel Eurostars San Lázaro te ofrece todo lo que necesitas para una estancia perfecta en Santiago de Compostela, ya sea por negocios o por placer.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/san-lazaro'>
