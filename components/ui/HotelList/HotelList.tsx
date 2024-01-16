@@ -11,13 +11,12 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>Casa Beatnik</HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						Sumérgete en la esencia del encanto bohemio en el Hotel Casa Beatnik, un rincón mágico en el corazón de Santiago de Compostela. Con una fusión perfecta de elegancia contemporánea y nostalgia artística, este hotel boutique te invita a descubrir la ciudad desde una perspectiva única. Cada rincón cuenta una historia, cada detalle evoca inspiración, convirtiendo tu estancia en una experiencia única e inolvidable.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/casa-beatnik'>
 								<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 				</HotelListItemContainer>
@@ -26,13 +25,12 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>NH Collection Santiago de Compostela</HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						Bienvenido a una experiencia de lujo contemporáneo en pleno corazón de Santiago de Compostela. NH Collection Santiago de Compostela te invita a descubrir un mundo de comodidades modernas, diseño elegante y hospitalidad excepcional. Con una ubicación privilegiada, nuestro hotel se convierte en el punto de partida perfecto para explorar la riqueza cultural y arquitectónica de esta encantadora ciudad.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/nh-collection'>
 							<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 	
@@ -42,13 +40,12 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>Parador de Santiago - Hostal Reis Católicos</HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						Adéntrate en la historia viva en el Parador de Santiago de Compostela, un tesoro arquitectónico que ha sido testigo de siglos de acontecimientos. Este majestuoso parador, ubicado frente a la Catedral, es mucho más que un alojamiento de lujo; es un viaje en el tiempo donde cada piedra cuenta una historia. Sumérgete en la autenticidad de la tradición española y disfruta de una experiencia única en este enclave histórico.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/parador-santiago'>
 								<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 				</HotelListItemContainer>
@@ -57,13 +54,12 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>A Quinta da Auga </HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						Bienvenido a A Quinta da Auga, un refugio de serenidad y lujo en las orillas del río Sar, a las afueras de Santiago de Compostela. Este hotel boutique se erige como un edén gallego, donde la naturaleza se fusiona con la arquitectura histórica para ofrecer una experiencia única. Descubre la tranquilidad en medio de jardines exuberantes, sumérgete en la elegancia contemporánea y déjate llevar por la hospitalidad única de este destino exclusivo.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/quinta-da-auga'>
 								<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 	
@@ -73,13 +69,12 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>Hotel Palacio del Carmen, Autograph Collection</HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						Bienvenido a la majestuosidad histórica y la elegancia contemporánea en el Hotel Palacio del Carmen, Autograph Collection. Situado en pleno corazón de Santiago de Compostela, nuestro hotel es una obra maestra arquitectónica que combina la rica historia del Palacio del Carmen con comodidades modernas. Sumérgete en un mundo de lujo atemporal, donde cada detalle cuenta una historia y cada momento se convierte en un recuerdo imborrable.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/palacio-carmen'>
 								<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 				</HotelListItemContainer>
@@ -88,13 +83,12 @@ export const HotelList = () => {
 					<HotelListItemContent>
 						<HotelListItemTitle>Eurostars Araguaney</HotelListItemTitle>
 						<HotelListItemDescription>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae at consequuntur animi distinctio ab soluta tempora natus culpa aperiam cumque, vitae ipsa hic molestias suscipit? Numquam necessitatibus excepturi quod. Doloribus.
+						Bienvenido a la elegancia atemporal del Hotel Araguaney en Santiago de Compostela, donde la sofisticación y la hospitalidad se encuentran en armonía. Este icónico hotel combina la tradición gallega con un toque contemporáneo, ofreciendo una experiencia única en el corazón de la ciudad. Sumérgete en el lujo discreto, descubre la riqueza cultural y deja que cada momento se convierta en un recuerdo inolvidable.
 						</HotelListItemDescription>
 						<HotelListItemPriceContainer>
 							<Link href='/hoteles/araguaney'>
 								<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 	
@@ -110,7 +104,6 @@ export const HotelList = () => {
 							<Link href='/hoteles/san-lazaro'>
 								<HotelListItemButton>Saber más</HotelListItemButton>
 							</Link>
-							<HotelListItemPrice>20€</HotelListItemPrice>
 						</HotelListItemPriceContainer>
 					</HotelListItemContent>
 				</HotelListItemContainer>

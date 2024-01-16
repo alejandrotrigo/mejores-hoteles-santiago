@@ -10,14 +10,14 @@ const data = {
 	"slug": "nh-collection",
 	"title": "NH Collection Santiago de Compostela",
 	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
-	"header1": "Viñedos y bodegas",
-	"text1": "La Ruta del Vino de Ribeiro es una de las más antiguas de España. En ella se pueden visitar bodegas centenarias y viñedos de gran belleza.",
-	"header2": "Paz y tranquilidad",
-	"text2": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header3": "Turismo activo",
-	"text3": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header4": "Turismo activo",
-	"text4": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza."
+	"header1": "Hospitalidad NH Collection:",
+	"text1": "En NH Collection Santiago de Compostela, la hospitalidad va más allá de las expectativas. Desde la cálida bienvenida hasta los servicios personalizados, cada detalle está cuidadosamente diseñado para que tu estancia sea excepcional. Nuestro compromiso con la excelencia se refleja en cada rincón, creando un ambiente acogedor y sofisticado.",
+	"header2": "Cocina gallega en nuestro restaurante DeCompostela:",
+	"text2": "En DeCompostela, te invitamos a un viaje culinario que celebra los sabores auténticos de Galicia. Con ingredientes locales frescos y la creatividad de nuestros chefs, cada plato es una obra maestra gastronómica. Disfruta de una experiencia culinaria única que refleja la riqueza de la cocina gallega.",
+	"header3": "Bienestar en nuestro gimnasio y spa:",
+	"text3": "En NH Collection Santiago de Compostela, tu bienestar es nuestra prioridad. Ya sea que prefieras mantenerte activo en nuestro gimnasio o relajarte con tratamientos rejuvenecedores en nuestro spa, ofrecemos un oasis de tranquilidad y cuidado personal para que te sientas renovado durante tu estancia.",
+	"header4": "Espacios versátiles para eventos:",
+	"text4": "Ya sea una reunión de negocios o una celebración especial, nuestros espacios versátiles están diseñados para adaptarse a tus necesidades. Con tecnología de vanguardia y un equipo profesional, NH Collection Santiago de Compostela es el lugar ideal para organizar eventos inolvidables con estilo y eficiencia."
 }
 
 const NHCollection = () => {

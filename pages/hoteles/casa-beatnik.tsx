@@ -13,15 +13,15 @@ const data = {
 	"booking": "https://www.booking.com/hotel/es/casa-beatnik.es.html",
 	"slug": "casa-beatnik",
 	"title": "Casa Beatnik Hotel",
-	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
-	"header1": "Viñedos y bodegas",
-	"text1": "La Ruta del Vino de Ribeiro es una de las más antiguas de España. En ella se pueden visitar bodegas centenarias y viñedos de gran belleza.",
-	"header2": "Paz y tranquilidad",
-	"text2": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header3": "Turismo activo",
-	"text3": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header4": "Turismo activo",
-	"text4": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza."
+	"subtitle": "Sumérgete en la esencia del encanto bohemio en el Hotel Casa Beatnik, un rincón mágico en el corazón de Santiago de Compostela. Con una fusión perfecta de elegancia contemporánea y nostalgia artística, este hotel boutique te invita a descubrir la ciudad desde una perspectiva única. Cada rincón cuenta una historia, cada detalle evoca inspiración, convirtiendo tu estancia en una experiencia única e inolvidable.",
+	"header1": "Armonía cultural en cada habitación:",
+	"text1": "Cada habitación en Casa Beatnik es una oda a la creatividad y la cultura. Desde las paredes adornadas con obras de artistas locales hasta la cuidadosa selección de mobiliario, te encontrarás inmerso en un mundo donde el arte y la comodidad se fusionan para ofrecerte una experiencia única.",
+	"header2": "Gastronomía con acento local:",
+	"text2": "En nuestro restaurante, te invitamos a un viaje gastronómico que rinde homenaje a los sabores locales. Desde los productos frescos de la región hasta las recetas tradicionales reinterpretadas con un toque contemporáneo, cada bocado es una celebración de la riqueza culinaria de Santiago de Compostela.",
+	"header3": "Descanso y relajación en nuestro oasis urbano:",
+	"text3": "En nuestro spa, experimentarás un mundo de relajación y bienestar. Desde masajes rejuvenecedores hasta tratamientos de belleza personalizados, cada momento se centra en tu bienestar. Después de un día explorando la ciudad, déjate envolver por la calma y el lujo de nuestro oasis urbano.",
+	"header4": "Eventos memorables en espacios únicos:",
+	"text4": "Ya sea una boda romántica o una reunión de negocios importante, en Casa Beatnik creamos eventos que perduran en la memoria. Nuestros espacios versátiles y llenos de encanto se adaptan a cualquier ocasión, ofreciendo un escenario perfecto para celebrar momentos especiales con estilo y distinción."
 }
 
 const CasaBeatnik: FC<Props> = () => {

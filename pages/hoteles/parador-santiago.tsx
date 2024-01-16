@@ -9,15 +9,15 @@ const data = {
 	"booking": "https://www.booking.com/hotel/es/hostal-reis-catolicos.es.html?aid=8082293",
 	"slug": "parador-santiago",
 	"title": "Parador de Santiago - Hostal Reis Catolicos",
-	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
-	"header1": "Viñedos y bodegas",
-	"text1": "La Ruta del Vino de Ribeiro es una de las más antiguas de España. En ella se pueden visitar bodegas centenarias y viñedos de gran belleza.",
-	"header2": "Paz y tranquilidad",
-	"text2": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header3": "Turismo activo",
-	"text3": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header4": "Turismo activo",
-	"text4": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza."
+	"subtitle": "Adéntrate en la historia viva en el Parador de Santiago de Compostela, un tesoro arquitectónico que ha sido testigo de siglos de acontecimientos. Este majestuoso parador, ubicado frente a la Catedral, es mucho más que un alojamiento de lujo; es un viaje en el tiempo donde cada piedra cuenta una historia. Sumérgete en la autenticidad de la tradición española y disfruta de una experiencia única en este enclave histórico.",
+	"header1": "Elegancia centenaria frente a la Catedral:",
+	"text1": "El Parador de Santiago de Compostela es más que un lugar para alojarse; es una conexión con el pasado. Su arquitectura centenaria, con vistas a la imponente Catedral, te transportará a una época de esplendor histórico. Cada rincón del parador emana elegancia y autenticidad, creando una experiencia única en el corazón de la ciudad.",
+	"header2": "Gastronomía gallega en el Restaurante dos Reis:",
+	"text2": "En el Restaurante dos Reis, la cocina gallega cobra vida con un toque de sofisticación. Los ingredientes locales de alta calidad se convierten en platos excepcionales que celebran la riqueza gastronómica de Galicia. Disfruta de una experiencia culinaria inigualable en un entorno que combina tradición y elegancia.",
+	"header3": "Bienestar en los jardines históricos:",
+	"text3": "Los jardines del Parador son un oasis de tranquilidad en el bullicio de Santiago de Compostela. Pasea entre árboles centenarios y flores fragantes, disfrutando de la serenidad de un entorno que ha sido testigo de siglos de historia. Un lugar perfecto para relajarse y desconectar.",
+	"header4": "Eventos inolvidables en espacios históricos:",
+	"text4": "Los salones históricos del Parador son el marco ideal para eventos inolvidables. Ya sea una boda romántica o una conferencia distinguida, nuestros espacios llenos de encanto y carácter ofrecen un escenario único que realza la importancia de cada ocasión."
 }
 
 const ParadorSantiago = () => {

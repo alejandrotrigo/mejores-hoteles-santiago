@@ -9,15 +9,15 @@ const data = {
 	"booking": "https://www.booking.com/hotel/es/palaciodelcarmen.es.html?aid=8082293",
 	"slug": "palacio-del-carmen",
 	"title": "Hotel Palacio del Carmen, Autograph Collection",
-	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
-	"header1": "Viñedos y bodegas",
-	"text1": "La Ruta del Vino de Ribeiro es una de las más antiguas de España. En ella se pueden visitar bodegas centenarias y viñedos de gran belleza.",
-	"header2": "Paz y tranquilidad",
-	"text2": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header3": "Turismo activo",
-	"text3": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header4": "Turismo activo",
-	"text4": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza."
+	"subtitle": "Bienvenido a la majestuosidad histórica y la elegancia contemporánea en el Hotel Palacio del Carmen, Autograph Collection. Situado en pleno corazón de Santiago de Compostela, nuestro hotel es una obra maestra arquitectónica que combina la rica historia del Palacio del Carmen con comodidades modernas. Sumérgete en un mundo de lujo atemporal, donde cada detalle cuenta una historia y cada momento se convierte en un recuerdo imborrable.",
+	"header1": "Historia y lujo entrelazados:",
+	"text1": "En el Hotel Palacio del Carmen, cada paso te lleva a través de siglos de historia. La majestuosidad del palacio original se fusiona con las comodidades modernas, creando un ambiente que te transporta a otra época. Descubre el lujo entrelazado con la rica historia de Santiago de Compostela en cada rincón de nuestro hotel.",
+	"header2": "Gastronomía de autor en el restaurante Lume:",
+	"text2": "En Lume, cada plato es una obra maestra culinaria que celebra la riqueza de los ingredientes locales. Nuestros chefs fusionan la tradición culinaria gallega con técnicas innovadoras, ofreciéndote una experiencia gastronómica única. Descubre la excelencia en cada bocado en el restaurante insignia del Palacio del Carmen.",
+	"header3": "Bienestar en nuestro spa exclusivo:",
+	"text3": "En nuestro spa exclusivo, el bienestar es una experiencia completa. Desde masajes relajantes hasta tratamientos faciales rejuvenecedores, cada detalle está pensado para tu confort. Sumérgete en un oasis de serenidad y déjate mimar por nuestros terapeutas expertos en el Palacio del Carmen.",
+	"header4": "Eventos memorables en espacios históricos:",
+	"text4": "En el Hotel Palacio del Carmen, tus eventos se convierten en experiencias inolvidables. Nuestros espacios históricos proporcionan el escenario perfecto para bodas románticas, reuniones ejecutivas y celebraciones exclusivas. Con un toque de distinción y encanto, hacemos que cada ocasión sea extraordinaria en nuestro hotel Autograph Collection."
 }
 
 const PalacioDelCarmen = () => {

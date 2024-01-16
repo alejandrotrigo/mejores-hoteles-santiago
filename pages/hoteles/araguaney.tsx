@@ -10,14 +10,14 @@ const data = {
 	"slug": "araguaney",
 	"title": "Eurostars Araguaney",
 	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
-	"header1": "Viñedos y bodegas",
-	"text1": "La Ruta del Vino de Ribeiro es una de las más antiguas de España. En ella se pueden visitar bodegas centenarias y viñedos de gran belleza.",
-	"header2": "Paz y tranquilidad",
-	"text2": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header3": "Turismo activo",
-	"text3": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza.",
-	"header4": "Turismo activo",
-	"text4": "La Ribeira Sacra es un lugar de paz y tranquilidad. Un lugar donde perderse y disfrutar de la naturaleza."
+	"header1": "Lujo gallego en cada detalle:",
+	"text1": "Cada detalle en el Hotel Araguaney refleja la esencia del lujo gallego. Desde la decoración inspirada en la rica tradición local hasta los servicios de primera clase, tu estancia será una experiencia de lujo auténtico, donde la elegancia y la hospitalidad se combinan para crear un ambiente acogedor y refinado.",
+	"header2": "Gastronomía de autor en nuestro restaurante Baluarte:",
+	"text2": "En Baluarte, la alta cocina se encuentra con la tradición gallega de una manera única. Nuestro chef utiliza ingredientes locales de alta calidad para crear platos que son verdaderas obras de arte culinarias. Disfruta de una experiencia gastronómica excepcional donde cada bocado es una celebración de la riqueza de la cocina gallega.",
+	"header3": "Bienestar en nuestro spa exclusivo:",
+	"text3": "En nuestro spa exclusivo, te sumergirás en un oasis de bienestar y tranquilidad. Desde masajes rejuvenecedores hasta tratamientos faciales personalizados, cada experiencia está diseñada para renovar tus sentidos y ofrecerte un momento de relajación incomparable.",
+	"header4": "Eventos memorables en espacios únicos:",
+	"text4": "Ya sea una boda de ensueño o una conferencia corporativa importante, en el Hotel Araguaney creamos eventos que superan las expectativas. Nuestros espacios elegantes y versátiles se adaptan a cualquier ocasión, ofreciendo un entorno exclusivo y sofisticado para celebrar momentos inolvidables con estilo y distinción."
 }
 
 const Araguaney = () => {
