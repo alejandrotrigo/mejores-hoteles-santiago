@@ -3,17 +3,22 @@ import { HotelDescription } from '@/components/hotel/HotelDescription';
 import { MainLayout } from '@/components/layouts';
 import { MainTitle } from '@/components/ui';
 import { GetServerSideProps } from 'next';
-import React, { FC, useEffect } from 'react'
+import { useRouter } from 'next/router';
+import React, { FC, use, useEffect } from 'react'
 
 interface Props {
 	readonly data: any;
 }
 
 const HotelPage: FC<Props> = ({ data }) => {
-		
+	const router = useRouter();
+	const handleClick = () => {
+		router.replace(data.booking);
+	}
+
 		return (
 		<MainLayout title={'Mejores hoteles de Santiago de Compostela'} pageDescription={'Ven a conocer Santiago de Compostela de la mano de los mejores hoteles, el lujo y experiencias auténticas '} imageFullUrl="webinas.png">
-			<MainTitle title={data.title} subtitle={data.subtitle} />
+			<MainTitle title={data.title} subtitle={data.subtitle} button="ver en booking" handleClick={handleClick}/>
 			<Collage 
 				url1={`/hoteles/${data.slug}/images/image1.jpg`}
 				url2={`/hoteles/${data.slug}/images/image2.jpg`}
