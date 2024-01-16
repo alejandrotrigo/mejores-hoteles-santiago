@@ -36,11 +36,11 @@ const HotelPage: FC<Props> = ({ data }) => {
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const { slug } = params as { slug: string };
   
-  const { data } = await axios.get(`${process.env.SITE_URL}/api/data/${slug}`);
+  /*const { data } = await axios.get(`${process.env.SITE_URL}/api/data/${slug}`);*/
 
   return {
     props: {
-      data: data || null,
+      data: {} || null,
     }
   }
 }
