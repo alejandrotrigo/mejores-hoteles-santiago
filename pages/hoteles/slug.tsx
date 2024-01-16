@@ -16,7 +16,8 @@ const HotelPage: FC<Props> = ({ data }) => {
 
 		return (
 		<MainLayout title={'Mejores hoteles de Santiago de Compostela'} pageDescription={'Ven a conocer Santiago de Compostela de la mano de los mejores hoteles, el lujo y experiencias auténticas '} imageFullUrl="webinas.png">
-			<MainTitle title={data.title} subtitle={data.subtitle} />
+			<></>
+			{/*<MainTitle title={data.title} subtitle={data.subtitle} />
 			<Collage 
 				url1={`/hoteles/${data.slug}/images/image1.jpg`}
 				url2={`/hoteles/${data.slug}/images/image2.jpg`}
@@ -25,7 +26,7 @@ const HotelPage: FC<Props> = ({ data }) => {
 				url5={`/hoteles/${data.slug}/images/image5.jpg`}
 				url6={`/hoteles/${data.slug}/images/image6.jpg`}
 			/>
-			<HotelDescription	data={data} />
+		<HotelDescription	data={data} /> */}
 		</MainLayout>
 	)
 }
