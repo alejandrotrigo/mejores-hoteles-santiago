@@ -4,7 +4,7 @@ import { MainLayout } from '@/components/layouts';
 import { MainTitle } from '@/components/ui';
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
-import React, { FC, use, useEffect } from 'react'
+import React, { FC } from 'react'
 
 interface Props {
 	readonly data: any;
