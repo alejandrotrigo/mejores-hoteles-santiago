@@ -2,6 +2,7 @@ import { Collage } from '@/components/hotel/Collage';
 import { HotelDescription } from '@/components/hotel/HotelDescription';
 import { MainLayout } from '@/components/layouts';
 import { MainTitle } from '@/components/ui';
+import axios from 'axios';
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
 import React, { FC } from 'react'
@@ -35,8 +36,7 @@ const HotelPage: FC<Props> = ({ data }) => {
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const { slug } = params as { slug: string };
   
-  const res = await fetch(`http://localhost:3000/api/data/${slug}`);
-  const data = await res.json();
+  const { data } = await axios.get(`${process.env.SITE_URL}/api/data/${slug}`);
 
   return {
     props: {
