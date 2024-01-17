@@ -9,7 +9,7 @@ const data = {
 	"booking": "https://www.booking.com/hotel/es/eurostarsaraguaney.es.html?aid=8082293",
 	"slug": "araguaney",
 	"title": "Eurostars Araguaney",
-	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
+	"subtitle": "Bienvenido a la elegancia atemporal del Hotel Araguaney en Santiago de Compostela, donde la sofisticación y la hospitalidad se encuentran en armonía. Este icónico hotel combina la tradición gallega con un toque contemporáneo, ofreciendo una experiencia única en el corazón de la ciudad. Sumérgete en el lujo discreto, descubre la riqueza cultural y deja que cada momento se convierta en un recuerdo inolvidable.",
 	"header1": "Lujo gallego en cada detalle:",
 	"text1": "Cada detalle en el Hotel Araguaney refleja la esencia del lujo gallego. Desde la decoración inspirada en la rica tradición local hasta los servicios de primera clase, tu estancia será una experiencia de lujo auténtico, donde la elegancia y la hospitalidad se combinan para crear un ambiente acogedor y refinado.",
 	"header2": "Gastronomía de autor en nuestro restaurante Baluarte:",
@@ -21,14 +21,9 @@ const data = {
 }
 
 const Araguaney = () => {
-	const router = useRouter();
-	const handleClick = () => {
-		router.replace(data.booking);
-	}
-
 		return (
 		<MainLayout title={'Mejores hoteles de Santiago de Compostela'} pageDescription={'Ven a conocer Santiago de Compostela de la mano de los mejores hoteles, el lujo y experiencias auténticas '} imageFullUrl="webinas.png">
-			<MainTitle title={data.title} subtitle={data.subtitle} button="ver en booking" handleClick={handleClick}/>
+			<MainTitle title={data.title} subtitle={data.subtitle} button="ver en booking" link={data.booking}/>
 			<Collage 
 				url1={`/hoteles/${data.slug}/images/image1.jpg`}
 				url2={`/hoteles/${data.slug}/images/image2.jpg`}

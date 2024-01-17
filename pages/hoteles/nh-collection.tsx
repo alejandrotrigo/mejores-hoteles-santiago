@@ -9,7 +9,7 @@ const data = {
 	"booking": "https://www.booking.com/hotel/es/nh-collection-santiago.es.html?aid=8082293",
 	"slug": "nh-collection",
 	"title": "NH Collection Santiago de Compostela",
-	"subtitle": "El lujo y el buen gusto se unen en el llamativo hotel rosa a escasos kilometros de Santiago de Compostela",
+	"subtitle": "Bienvenido a una experiencia de lujo contemporáneo en pleno corazón de Santiago de Compostela. NH Collection Santiago de Compostela te invita a descubrir un mundo de comodidades modernas, diseño elegante y hospitalidad excepcional. Con una ubicación privilegiada, nuestro hotel se convierte en el punto de partida perfecto para explorar la riqueza cultural y arquitectónica de esta encantadora ciudad.",
 	"header1": "Hospitalidad NH Collection:",
 	"text1": "En NH Collection Santiago de Compostela, la hospitalidad va más allá de las expectativas. Desde la cálida bienvenida hasta los servicios personalizados, cada detalle está cuidadosamente diseñado para que tu estancia sea excepcional. Nuestro compromiso con la excelencia se refleja en cada rincón, creando un ambiente acogedor y sofisticado.",
 	"header2": "Cocina gallega en nuestro restaurante DeCompostela:",
@@ -21,14 +21,10 @@ const data = {
 }
 
 const NHCollection = () => {
-	const router = useRouter();
-	const handleClick = () => {
-		router.replace(data.booking);
-	}
 
 		return (
 		<MainLayout title={'Mejores hoteles de Santiago de Compostela'} pageDescription={'Ven a conocer Santiago de Compostela de la mano de los mejores hoteles, el lujo y experiencias auténticas '} imageFullUrl="webinas.png">
-			<MainTitle title={data.title} subtitle={data.subtitle} button="ver en booking" handleClick={handleClick}/>
+			<MainTitle title={data.title} subtitle={data.subtitle} button="ver en booking"  link={data.booking}/>
 			<Collage 
 				url1={`/hoteles/${data.slug}/images/image1.jpg`}
 				url2={`/hoteles/${data.slug}/images/image2.jpg`}
