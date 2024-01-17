@@ -16,7 +16,7 @@ export const MainTitle: FC<Props> = ({ title, subtitle, button, link}) => {
 		<HeadingPrimaryMain>{title}</HeadingPrimaryMain>
 		<HeadingPrimarySub>{ subtitle }</HeadingPrimarySub>
 		{ button && 
-			<Link href={link || ''}>
+			<Link href={link || ''} target='_blank'>
 				<CTAButton >{button}</CTAButton> 
 			</Link>
 		}
